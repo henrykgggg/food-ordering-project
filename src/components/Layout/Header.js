@@ -6,8 +6,8 @@ import HeaderCartButton from "./HeaderCartButton";
 const Header = props => {
   return <Fragment>
       <header className={classes.header}>
-          <h1>HenryMeals</h1>
-        <HeaderCartButton/>
+          <h1>ELL ELOHE MEALS</h1>
+        <HeaderCartButton onclck={props.onShowCart}/>
       </header>
       <div className={classes['main-image']}>
           <img src={mealsImage} alt="A table full of delicius food!"/>
